@@ -1,0 +1,6 @@
+Steps to read a file:
+
+1. Convert it from Latin-1 to UTF-8
+2. Eliminate any malformed records 
+     Make a note of the malformed records in a separate file.
+

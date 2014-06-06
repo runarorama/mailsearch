@@ -3,9 +3,8 @@ package mailsearch
 import java.io._
 import com.pff._
 
-// Definitions of search rules using terms defined in Terms
+// Definitions of search rules
 object Rules {
-  import Terms._
   import Regexes._
 
   def throughout(s: String, email: PSTMessage): Boolean =
